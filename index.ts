@@ -39,7 +39,7 @@ app.get("/makingSmallFeatures", function (req, res) {
         [5, "Nuts"]
       ]
       
-      for (let i = 1; i <= 100; i++) {
+      for (let i = 1; i <= 500; i++) {
         let output = "";
       
         multipliers.forEach(function(item : any) {
